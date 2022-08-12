@@ -1,0 +1,112 @@
+const characters = [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "H",
+  "I",
+  "J",
+  "K",
+  "L",
+  "M",
+  "N",
+  "O",
+  "P",
+  "Q",
+  "R",
+  "S",
+  "T",
+  "U",
+  "V",
+  "W",
+  "X",
+  "Y",
+  "Z",
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "j",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "q",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "w",
+  "x",
+  "y",
+  "z",
+  "0",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "~",
+  "`",
+  "!",
+  "@",
+  "#",
+  "$",
+  "%",
+  "^",
+  "&",
+  "*",
+  "(",
+  ")",
+  "_",
+  "-",
+  "+",
+  "=",
+  "{",
+  "[",
+  "}",
+  "]",
+  ",",
+  "|",
+  ":",
+  ";",
+  "<",
+  ">",
+  ".",
+  "?",
+  "/",
+];
+
+//selecting pwrd containers
+let pwrdOne = document.getElementById("pwrd-one");
+let pwrdTwo = document.getElementById("pwrd-two");
+
+function getPasswords() {
+  pwrdOne.textContent = "";
+  pwrdTwo.textContent = "";
+  //   let randomOne = Math.floor(Math.random() * characters.length);
+  //   let randomTwo = Math.floor(Math.random() * characters.length);
+
+  //for loop indicating I want to loop 15 times over the characters array in a random order
+  for (let i = 0; i <= 15; i++) {
+    pwrdOne.textContent +=
+      characters[Math.floor(Math.random() * characters.length)];
+    pwrdTwo.textContent +=
+      characters[Math.floor(Math.random() * characters.length)];
+  }
+}
