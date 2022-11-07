@@ -1,5 +1,7 @@
 # 🔒 Password Generator
 
+## 🌐 [Live Demo of this project](https://bespoke-cocada-710490.netlify.app/)
+
 ## ℹ️ About this project
 
 This is a solo project that is a part of [Scrimba's Learn JavaScript Course](https://scrimba.com/learn/learnjavascript) by Per Harald Borgen.
@@ -11,8 +13,6 @@ Every solo project has a list of features that need to be on the project, and a 
 In this project I had to create a Password Generator, with 15 random characters.
 
 The main goal of the project was to practise how to use `Math.floor()` `Math.random()` and `For loops`.
-
-🌐 [Live Demo of this project](https://bespoke-cocada-710490.netlify.app/)
 
 ## 🧰 Technologies used
 
