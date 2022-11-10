@@ -33,3 +33,6 @@ The main goal of the project was to practise how to use `Math.floor()` `Math.ran
 - Added two variables to select the items on the HTML file where I want to display the generated passwords
 - Added the function getPasswords() that will be called when clicking the button `Generate Passwords`
 - Created for loop indicating I want to loop 15 times over the characters array in a random order and display them on the page
+
+## 🧠 Improvement ideas
+- I'd like to come back to this project and add a feature to copy the password with a click
